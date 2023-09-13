@@ -15,3 +15,16 @@ repeatStringNumTimes("pallavi", 5);
 repeatStringNumTimes("Simran", -1);
 repeatStringNumTimes("Manisha", 0);
 
+
+var sum = 0;
+var num = 0;
+function numAdd(num) {
+  for (var i = 0; i <= num; i++) {
+    sum = sum + i;
+  }
+  console.log(num);
+
+}
+
+numAdd(5);
+
